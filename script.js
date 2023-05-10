@@ -9,7 +9,7 @@ button.addEventListener("click", function(){
     textbox.value="";
 });
 
-textbox.addEventListener("keydown", function(event){
+textbox.addEventListener("keydown", function(event){ // Don't use keypress, it's deprecated in 10% of browsers
     if(event.key==="Enter"){
         var newMessage=document.createElement("li");
         newMessage.innerHTML=textbox.value;
