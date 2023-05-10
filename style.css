@@ -1,0 +1,38 @@
+.wrapper{
+    height: 100vh; 
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color:rgb(167, 230, 230);
+}
+.frame{
+    display:flex; 
+    justify-content: center ; 
+    align-items: flex-end; 
+    width: 400px; 
+    height:700px; 
+    overflow:hidden; 
+    background-color:rgb(158, 255, 223); 
+    box-shadow: 2px 2px 5px black; 
+    border-radius: 2%;
+}
+#msg{
+    width:400px; 
+    margin:0; 
+    padding-left: 8px; 
+    list-style-position: outside; 
+    list-style-type: none; 
+    color:blueviolet; 
+}
+#input{
+    display:flex; 
+    justify-content:center ; 
+    align-items: flex-end; 
+    width: 400px; 
+    overflow:hidden; 
+    box-shadow: 2px 2px 5px black; 
+}
+#textbox{
+    width:370px;
+}

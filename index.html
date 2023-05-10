@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Messaging</title>
+        <meta charset="UTF-8">
+        <title>Messaging App</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div style="height: 100vh; display:flex; flex-direction: column; justify-content: center; align-items: center; background-color:rgb(167, 230, 230); ">
-            <div style="display:flex; justify-content: center ; align-items: flex-end; width: 400px; height:700px; overflow:hidden; background-color:rgb(158, 255, 223); box-shadow: 2px 2px 5px black; border-radius: 2%; ">
-                <ul style="width:400px; margin:0; padding-left: 8px; list-style-position: outside; list-style-type: none; color:blueviolet; " id="msg"></ul>                
+        <div class="wrapper">
+            <div class="frame">
+                <ul id="msg"></ul>                
             </div>
-            <div style="display:flex; justify-content:center ; align-items: flex-end; width: 400px; overflow:hidden; box-shadow: 2px 2px 5px black; ">
-                <input style="width:370px;" id="textbox" type="text">
+            <div id="input">
+                <input id="textbox" type="text">
                 <button id="button">Send</button>
 
                 <script src="script.js"></script>
